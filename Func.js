@@ -66,8 +66,29 @@ console.log(estPair(1));
             }
             )();
             
-// avancee
-// exercice 11
+
+// fun 
+console.log("fac**********____________________________________")
+
+function factorielle(n){
+    var res=1
+   for (let i = 1; i <=n; i++) {
+    res*=i
+   
+    
+   }
+return res
+}
+console.log(factorielle(5))
+const priceBook= [120,30,40,100,126]
+priceBook.push(150)
+console.log(priceBook)
+const car={
+    mark:"toyota",
+    model:"corolla",
+    year:2010,
+}
+console.log(typeof(car.model))
 
 
     
